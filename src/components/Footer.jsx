@@ -16,12 +16,12 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Github size={20} />,
-      href: 'https://github.com/vivekgupta3749',
+      href: 'https://github.com/vivek34561',
       label: 'GitHub',
     },
     {
       icon: <Linkedin size={20} />,
-      href: 'https://linkedin.com/in/vivek-kumar-gupta-profile',
+      href: 'https://www.linkedin.com/in/vivek-gupta-0400452b6/',
       label: 'LinkedIn',
     },
     {

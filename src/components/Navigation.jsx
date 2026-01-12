@@ -56,7 +56,7 @@ const Navigation = () => {
           {/* Social Icons */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://github.com/vivekgupta3749"
+              href="https://github.com/vivek34561"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-secondary hover:text-primary-accent transition-colors"
@@ -64,7 +64,7 @@ const Navigation = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/vivek-kumar-gupta-profile"
+              href="https://www.linkedin.com/in/vivek-gupta-0400452b6/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-secondary hover:text-primary-accent transition-colors"
@@ -107,7 +107,7 @@ const Navigation = () => {
             ))}
             <div className="flex items-center space-x-4 px-3 py-2">
               <a
-                href="https://github.com/vivekgupta3749"
+                href="https://github.com/vivek34561"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-secondary hover:text-primary-accent transition-colors"
@@ -115,7 +115,7 @@ const Navigation = () => {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/vivek-kumar-gupta-profile"
+                href="https://www.linkedin.com/in/vivek-gupta-0400452b6/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-secondary hover:text-primary-accent transition-colors"

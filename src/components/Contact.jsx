@@ -19,13 +19,13 @@ const Contact = () => {
       icon: <Linkedin className="text-primary-accent" size={24} />,
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
-      href: 'https://linkedin.com/in/vivek-kumar-gupta-profile',
+      href: 'https://www.linkedin.com/in/vivek-gupta-0400452b6/',
     },
     {
       icon: <Github className="text-primary-green" size={24} />,
       label: 'GitHub',
       value: 'View My Repositories',
-      href: 'https://github.com/vivekgupta3749',
+      href: 'https://github.com/vivek34561',
     },
   ];
 
