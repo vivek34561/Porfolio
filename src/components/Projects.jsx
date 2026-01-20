@@ -5,6 +5,19 @@ const Projects = () => {
   const [showAll, setShowAll] = useState(false);
   const projects = [
     {
+      title: 'Network Security – Phishing Detection',
+      subtitle: 'Production-grade phishing detection (30 security features)',
+      date: 'Jan 2026',
+      description: [
+        'End-to-end ML system with FastAPI backend and Streamlit analytics UI',
+        'Batch and real-time inference with MLflow-tracked experiments and registry',
+        'Dockerized deployment with CSV uploads, manual feature input, and risk scoring',
+      ],
+      technologies: ['FastAPI', 'Streamlit', 'scikit-learn', 'MLflow', 'Docker', 'MongoDB'],
+      github: 'https://github.com/vivek34561/Network-Security',
+      demo: 'https://network-security.streamlit.app/',
+    },
+    {
       title: 'CardioCare AI',
       subtitle: 'Heart Disease Prediction with Multilingual Support',
       date: 'Apr 2025',
