@@ -26,9 +26,9 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-primary-bg">
+    <section id="about" className="section-spacing bg-primary-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center section-heading-gap">
           <h2 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
             About Me
           </h2>

@@ -8,27 +8,48 @@ import {
   Database,
   Users,
   BookOpen,
+  GitBranch,
+  Target,
 } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
     {
       icon: <Code2 className="text-primary-accent" size={28} />,
-      title: 'Programming Languages',
+      title: 'Languages',
       skills: ['Python', 'C++'],
     },
     {
-      icon: <Brain className="text-primary-green" size={28} />,
+      icon: <Wrench className="text-primary-green" size={28} />,
+      title: 'Developer Tools',
+      skills: ['Git', 'Docker', 'FastAPI', 'Streamlit', 'MLflow', 'DVC', 'Apache Airflow'],
+    },
+    {
+      icon: <GitBranch className="text-primary-accent" size={28} />,
+      title: 'CI/CD & MLOps Tools',
+      skills: ['GitHub Actions', 'CI/CD Pipelines', 'DagsHub', 'Astro Cloud'],
+    },
+    {
+      icon: <BookOpen className="text-primary-green" size={28} />,
+      title: 'Frameworks',
+      skills: [
+        'LangChain',
+        'LangGraph',
+        'TensorFlow',
+        'scikit-learn',
+      ],
+    },
+    {
+      icon: <Brain className="text-primary-accent" size={28} />,
       title: 'Machine Learning',
       skills: [
-        'Supervised Learning',
-        'Unsupervised Learning',
+        'Supervised & Unsupervised Learning',
         'Feature Engineering',
         'Model Evaluation',
       ],
     },
     {
-      icon: <Layers className="text-primary-accent" size={28} />,
+      icon: <Layers className="text-primary-green" size={28} />,
       title: 'Deep Learning',
       skills: [
         'Neural Networks',
@@ -39,52 +60,34 @@ const Skills = () => {
       ],
     },
     {
-      icon: <MessageSquare className="text-primary-green" size={28} />,
-      title: 'NLP & GenAI',
+      icon: <MessageSquare className="text-primary-accent" size={28} />,
+      title: 'Natural Language Processing',
       skills: [
         'Text Preprocessing',
         'Tokenization',
         'Embeddings',
-        'RAG',
         'Prompt Engineering',
+        'RAG',
       ],
     },
     {
-      icon: <Wrench className="text-primary-accent" size={28} />,
-      title: 'Developer Tools',
-      skills: ['Git', 'FastAPI', 'Streamlit', 'MLflow', 'DVC'],
-    },
-    {
-      icon: <BookOpen className="text-primary-green" size={28} />,
-      title: 'Frameworks & Libraries',
+      icon: <Target className="text-primary-green" size={28} />,
+      title: 'Areas of Interest',
       skills: [
-        'LangChain',
-        'LangGraph',
-        'TensorFlow',
-        'scikit-learn',
-        'Pydantic',
-      ],
-    },
-    {
-      icon: <Database className="text-primary-accent" size={28} />,
-      title: 'Cloud/Databases',
-      skills: ['FAISS', 'ChromaDB', 'Pinecone'],
-    },
-    {
-      icon: <Users className="text-primary-green" size={28} />,
-      title: 'Soft Skills',
-      skills: [
-        'Problem Solving',
-        'Analytical Thinking',
-        'Technical Writing',
+        'Machine Learning',
+        'Deep Learning',
+        'NLP',
+        'Generative AI',
+        'Agentic AI Systems',
+        'MLOps',
       ],
     },
   ];
 
   return (
-    <section id="skills" className="py-20 bg-primary-white">
+    <section id="skills" className="section-spacing bg-primary-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center section-heading-gap">
           <h2 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
             Skills & Expertise
           </h2>

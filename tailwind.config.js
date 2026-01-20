@@ -8,16 +8,16 @@ export default {
     extend: {
       colors: {
         primary: {
-          bg: '#F8F9FA',
-          white: '#FFFFFF',
-          accent: '#4F46E5',
-          green: '#10B981',
+          bg: '#0B1220',
+          white: '#111827',
+          accent: '#3B82F6',
+          green: '#22D3EE',
         },
         text: {
-          primary: '#1F2937',
-          secondary: '#6B7280',
+          primary: '#E5E7EB',
+          secondary: '#9CA3AF',
         },
-        border: '#E5E7EB',
+        border: '#1F2937',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

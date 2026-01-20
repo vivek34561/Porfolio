@@ -18,9 +18,9 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 bg-primary-white">
+    <section id="experience" className="section-spacing bg-primary-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center section-heading-gap">
           <h2 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
             Experience
           </h2>
@@ -31,7 +31,7 @@ const Experience = () => {
           {experiences.map((exp, index) => (
             <div
               key={index}
-              className="relative pl-8 pb-12 border-l-2 border-primary-accent/30 last:pb-0"
+              className="relative pl-8 pb-10 border-l-2 border-primary-accent/30 last:pb-0"
             >
               {/* Timeline Dot */}
               <div className="absolute left-0 top-0 w-4 h-4 -ml-[9px] bg-primary-accent rounded-full border-4 border-primary-white"></div>

@@ -99,4 +99,13 @@
   .hover-glow:hover {
     box-shadow: 0 0 20px rgba(79, 70, 229, 0.4);
   }
+
+  /* Consistent, tighter vertical spacing for sections */
+  .section-spacing {
+    @apply py-12 sm:py-14 md:py-16;
+  }
+
+  .section-heading-gap {
+    @apply mb-10 md:mb-12;
+  }
 }

@@ -15,7 +15,7 @@ const Projects = () => {
       ],
       technologies: ['XGBoost', 'LangChain', 'Groq LLaMA', 'FastAPI', 'Streamlit'],
       github: 'https://github.com/vivek34561/End-to-End-Heart-Disease-Prediction',
-      demo: 'https://heart-diseasefrontend-5a7a8554af50.herokuapp.com/',
+      demo: 'https://heart-diseasefrontend-fd9819a3717d.herokuapp.com/',
       video: 'https://www.youtube.com/watch?v=-chceQbgZ8E',
     },
     {
@@ -108,8 +108,8 @@ const Projects = () => {
         'Interactive UI with real-time poster fetching from TMDB API',
       ],
       technologies: ['TF-IDF', 'FastAPI', 'Streamlit', 'TMDB API'],
-      github: 'https://github.com/vivek34561/Movie-Recommendation',
-      demo: 'https://movie-recommendation2-70698c1dbbef.herokuapp.com/',
+      github: 'https://github.com/vivek34561/Movie_Recommended_System',
+      demo: 'https://movie-recommendations-system-eb598d238ef8.herokuapp.com/',
     },
     {
       title: 'Olympics Data Analysis',
@@ -127,9 +127,9 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-primary-bg">
+    <section id="projects" className="section-spacing bg-primary-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center section-heading-gap">
           <h2 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
             Featured Projects
           </h2>
@@ -238,7 +238,7 @@ const Projects = () => {
 
         {/* View All Button */}
         {projects.length > 6 && (
-          <div className="text-center mt-12">
+          <div className="text-center mt-10">
             <button
               onClick={() => setShowAll(!showAll)}
               className="px-8 py-4 bg-primary-accent text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-2 mx-auto"

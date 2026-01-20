@@ -29,9 +29,9 @@ const Certificates = () => {
   ];
 
   return (
-    <section id="certificates" className="py-20 bg-primary-white">
+    <section id="certificates" className="section-spacing bg-primary-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center section-heading-gap">
           <h2 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
             Certifications
           </h2>

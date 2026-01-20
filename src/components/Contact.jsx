@@ -30,9 +30,9 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-primary-accent/5 to-primary-green/5">
+    <section id="contact" className="section-spacing bg-gradient-to-br from-primary-accent/5 to-primary-green/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center section-heading-gap">
           <h2 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
             Let's Connect
           </h2>
@@ -44,7 +44,7 @@ const Contact = () => {
 
         <div className="max-w-4xl mx-auto">
           {/* Contact Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
             {contactMethods.map((method, index) => (
               <a
                 key={index}
@@ -82,7 +82,7 @@ const Contact = () => {
           </div>
 
           {/* Additional Info */}
-          <div className="mt-12 text-center">
+          <div className="mt-8 text-center">
             <p className="text-text-secondary">
               Or download my resume to learn more about my work
             </p>

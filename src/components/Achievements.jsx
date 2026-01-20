@@ -27,9 +27,9 @@ const Achievements = () => {
   ];
 
   return (
-    <section id="achievements" className="py-20 bg-primary-white">
+    <section id="achievements" className="section-spacing bg-primary-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center section-heading-gap">
           <h2 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
             Achievements & Recognition
           </h2>
@@ -74,7 +74,7 @@ const Achievements = () => {
         </div>
 
         {/* Additional Stats */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
           <div className="text-center p-6 bg-primary-bg rounded-xl border border-border">
             <p className="text-4xl font-bold text-primary-accent mb-2">5+</p>
             <p className="text-text-secondary">Projects</p>

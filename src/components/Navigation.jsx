@@ -25,7 +25,7 @@ const Navigation = () => {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-primary-white shadow-md' : 'bg-white/95 backdrop-blur-md shadow-sm'
+        scrolled ? 'bg-primary-white shadow-md' : 'bg-primary-white/80 backdrop-blur-md shadow-sm'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
